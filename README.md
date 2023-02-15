@@ -19,8 +19,8 @@ Um die Bewegungen des Roboters zu steuern, die die Geschwindigkeit und Richtung 
 
 
 # Instructions
-| T       |      | L    | V |   |                        |
-|---------|------|------|---|---|------------------------|
+|         T      | L    | V |   |                        |
+|----------------|------|---|---|------------------------|
 | STOP    | 0x00 | 0x00 | - | - | Roboter stoppt         |
 | LEFT    | 0x01 | 0x02 | x | y | Roboter fährt links    |
 | RIGHT   | 0x02 | 0x02 | x | y | Roboter fährt rechts   |
