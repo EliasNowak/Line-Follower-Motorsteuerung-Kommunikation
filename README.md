@@ -19,10 +19,10 @@ Um die Bewegungen des Roboters zu steuern, die die Geschwindigkeit und Richtung 
 
 
 # Instructions
-| T       |      | L    | V |   | Beschreibung                                                |
+| T       |      | L    | V     | Beschreibung                                                |
 |---------|------|------|---|---|-------------------------------------------------------------|
 | STOP    | 0x00 | 0x00 | - | - | Roboter stoppt                                              |
 | LEFT    | 0x01 | 0x02 | vL| vR| Roboter fährt links    (x -> Geschwindigkeit, y -> Richtung)|
 | RIGHT   | 0x02 | 0x02 | vL| vR| Roboter fährt rechts   (x -> Geschwindigkeit, y -> Richtung)|
-| BACK    | 0x03 | 0x01 | vL| - | Roboter fährt zurück   (x -> Geschwindigkeit)               |
-| FORWARD | 0x04 | 0x01 | vL| - | Roboter fährt vorwärts (x -> Geschwindigkeit)               |
+| BACK    | 0x03 | 0x01 | v | - | Roboter fährt zurück   (x -> Geschwindigkeit)               |
+| FORWARD | 0x04 | 0x01 | v | - | Roboter fährt vorwärts (x -> Geschwindigkeit)               |
