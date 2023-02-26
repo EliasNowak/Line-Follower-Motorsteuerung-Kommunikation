@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "io.h": "c"
+        "io.h": "c",
+        "motor.h": "c",
+        "receiv.h": "c",
+        "uart.h": "c"
     }
 }
