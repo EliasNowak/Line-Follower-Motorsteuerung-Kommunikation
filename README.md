@@ -19,7 +19,7 @@ Um die Bewegungen des Roboters zu steuern, die die Geschwindigkeit und Richtung 
 
 
 # Instructions
-| T       |      | L    | V | V | Beschreibung                                                |
+| Command | T    | L    | V | V | Beschreibung                                                |
 |---------|------|------|---|---|-------------------------------------------------------------|
 | STOP    | 0x00 | 0x00 | - | - | Roboter stoppt                                              |
 | DIR     | 0x01 | 0x02 | vL| vR| vL -> Geschwindigkeit Left, vR -> Geschwindigkeit Right     |
