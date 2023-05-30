@@ -22,6 +22,6 @@ Um die Bewegungen des Roboters zu steuern, die die Geschwindigkeit und Richtung 
 | Command | T    | L    | V | V | Beschreibung                                                |
 |---------|------|------|---|---|-------------------------------------------------------------|
 | STOP    | 0x00 | 0x00 | - | - | Roboter stoppt                                              |
-| DIR     | 0x01 | 0x02 | vL| vR| vL -> Geschwindigkeit Left, vR -> Geschwindigkeit Right     |
-| BACK    | 0x02 | 0x01 | v | - | Roboter fährt zurück   (v -> Geschwindigkeit)               |
-| FORWARD | 0x03 | 0x01 | v | - | Roboter fährt vorwärts (v -> Geschwindigkeit)               |
+| DIR     | 0x01 | 0x02 | vL| vR| vL -> speed Left, vR -> speed Right                         |
+| BACK    | 0x02 | 0x01 | v | - | Roboter fährt zurück   (v -> speed)                         |
+| FORWARD | 0x03 | 0x01 | v | - | Roboter fährt vorwärts (v -> speed)                         |
